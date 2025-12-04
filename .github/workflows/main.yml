@@ -49,10 +49,10 @@ jobs:
           net user runneradmin TheDisa1a
           Write-Host "✅ System user configured" -ForegroundColor Green
           
-      - name: Show Connection Info
-        shell: pwsh
-        run: |
-          Write-Host @"
+- name: Show Connection Info
+  shell: pwsh
+  run: |
+    Write-Host @"
 ╔══════════════════════════════════════╗
 ║        AVICA RDP CONNECTION          ║  
 ╚══════════════════════════════════════╝
